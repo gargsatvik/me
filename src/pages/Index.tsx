@@ -85,7 +85,7 @@ const Index = () => {
               className="flex flex-wrap items-center justify-center gap-4 mb-12"
             >
               <Button variant="hero" size="lg" asChild>
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Satvik_october_cv.pdf" download>
                   <Download className="h-5 w-5" />
                   View Resume
                 </a>

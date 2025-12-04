@@ -77,7 +77,7 @@ export function Navbar() {
 
           <div className="hidden md:block">
             <Button variant="hero" size="sm" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Satvik_october_cv.pdf" download>
                 Download CV
               </a>
             </Button>
@@ -134,7 +134,7 @@ export function Navbar() {
                 className="pt-2"
               >
                 <Button variant="hero" className="w-full" asChild>
-                  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/Satvik_october_cv.pdf" download>
                     Download CV
                   </a>
                 </Button>
