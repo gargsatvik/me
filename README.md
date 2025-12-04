@@ -1,198 +1,73 @@
-# Satvik Garg - Personal Portfolio
+# Welcome to your Lovable project
 
-A modern, responsive personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+## Project info
 
-## 🚀 Features
+**URL**: https://lovable.dev/projects/4622c7b4-fc3b-46eb-9fc1-7b43cbdf4c65
 
-- **Responsive Design**: Mobile-first approach with beautiful desktop layout
-- **Smooth Animations**: Framer Motion powered entrance and hover effects
-- **Fast Performance**: Optimized for speed and SEO
-- **Accessible**: WCAG compliant with proper semantic HTML
-- **Modern Tech Stack**: Next.js 14, TypeScript, Tailwind CSS
+## How can I edit this code?
 
-## 📱 Sections
+There are several ways of editing your application.
 
-- **Hero**: Name, tagline, and contact information
-- **About**: Personal introduction and background
-- **Projects**: Showcase of 6 featured projects with tech stacks
-- **Leadership**: Leadership roles and achievements
-- **Skills**: Technical and soft skills organized by category
-- **Contact**: Call-to-action and contact information
-- **Footer**: Social links and additional information
+**Use Lovable**
 
-## 🛠️ Tech Stack
+Simply visit the [Lovable Project](https://lovable.dev/projects/4622c7b4-fc3b-46eb-9fc1-7b43cbdf4c65) and start prompting.
 
-- **Frontend**: Next.js 14 (App Router)
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Language**: TypeScript
-- **Deployment**: Vercel (recommended)
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🚀 Quick Start
+**Use your preferred IDE**
 
-### Prerequisites
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-- Node.js 18+ 
-- npm or yarn
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### Installation
+Follow these steps:
 
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd satvik-portfolio
-```
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-2. Install dependencies:
-```bash
-npm install
-```
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-3. Run the development server:
-```bash
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+**Edit a file directly in GitHub**
 
-## 📁 Project Structure
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-```
-satvik-portfolio/
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx          # Root layout
-│   │   ├── page.tsx            # Main page
-│   │   └── globals.css         # Global styles
-│   ├── components/              # React components
-│   │   ├── Hero.tsx
-│   │   ├── About.tsx
-│   │   ├── Projects.tsx
-│   │   ├── ProjectCard.tsx
-│   │   ├── Leadership.tsx
-│   │   ├── Skills.tsx
-│   │   ├── Contact.tsx
-│   │   └── Footer.tsx
-│   └── data/
-│       └── profile.json        # Content data
-├── public/
-│   ├── images/projects/        # Project screenshots
-│   └── cv/                     # CV download
-├── tailwind.config.js          # Tailwind configuration
-└── package.json
-```
+**Use GitHub Codespaces**
 
-## 🎨 Customization
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-### Content Updates
+## What technologies are used for this project?
 
-All content is stored in `src/data/profile.json`. Update this file to modify:
+This project is built with:
 
-- Personal information
-- Project details
-- Skills and technologies
-- Leadership roles
-- Contact information
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-### Styling
+## How can I deploy this project?
 
-- Colors: Update `tailwind.config.js` for brand colors
-- Layout: Modify component classes in each component
-- Animations: Adjust Framer Motion settings
+Simply open [Lovable](https://lovable.dev/projects/4622c7b4-fc3b-46eb-9fc1-7b43cbdf4c65) and click on Share -> Publish.
 
-### Adding New Sections
+## Can I connect a custom domain to my Lovable project?
 
-1. Create a new component in `src/components/`
-2. Add it to `src/app/page.tsx`
-3. Update the navigation if needed
+Yes, you can!
 
-## 🚀 Deployment
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically on push
-
-### Netlify
-
-1. Build the project: `npm run build`
-2. Deploy the `out` folder to Netlify
-
-### Manual Deployment
-
-1. Build: `npm run build`
-2. Export: `npm run export`
-3. Upload the `out` folder to your hosting provider
-
-## 📊 Performance
-
-- **Lighthouse Score**: 95+ (Performance, Accessibility, SEO)
-- **First Contentful Paint**: <1.5s
-- **Largest Contentful Paint**: <2.5s
-- **Cumulative Layout Shift**: <0.1
-
-## 🔧 Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
-
-### Code Quality
-
-- TypeScript for type safety
-- ESLint for code quality
-- Prettier for code formatting (recommended)
-
-## 📱 Responsive Breakpoints
-
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
-
-## 🎯 SEO Features
-
-- Meta tags and Open Graph
-- Semantic HTML structure
-- Fast loading times
-- Mobile-friendly design
-
-## 🔒 Security
-
-- No sensitive data in client-side code
-- Secure external links with `rel="noopener noreferrer"`
-- HTTPS enforcement in production
-
-## 📈 Analytics
-
-To add analytics:
-
-1. **Google Analytics**: Add GA4 tracking code
-2. **Vercel Analytics**: Built-in with Vercel deployment
-3. **Plausible**: Privacy-focused analytics
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 📞 Support
-
-For questions or support:
-- Email: gargsatvik31@outlook.com
-- LinkedIn: [linkedin.com/in/garg-satvik](https://linkedin.com/in/garg-satvik)
-- GitHub: [github.com/gargsatvik](https://github.com/gargsatvik)
-
----
-
-Built with ❤️ using Next.js and Tailwind CSS
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
